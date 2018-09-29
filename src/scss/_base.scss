@@ -49,6 +49,14 @@ header {
 
 //BUTTONS
 // Button Styles
+button {
+	border: none;
+	background: none;
+	outline: none;
+	&:hover {
+		cursor: pointer;
+	}
+}
 .btn {
 	display: block;
 	padding: 0.5rem 1rem;
@@ -71,4 +79,9 @@ header {
 	@extend .btn;
 	background: lighten($primary-color, 50);
 	color: #333;
+}
+
+.close {
+	color: #fff;
+	font-size: 2em;
 }
