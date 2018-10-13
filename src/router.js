@@ -4,6 +4,7 @@ import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Work from './components/Work.vue'
+import Skills from './components/Skills.vue'
 
 Vue.use(Router) 
 
@@ -18,6 +19,11 @@ export default new Router({
             path: '/about',
             name: 'about',
             component: About
+        },
+        {
+            path: '/skills',
+            name: 'skills',
+            component: Skills
         },
         {
             path: '/work',
